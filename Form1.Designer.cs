@@ -28,38 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lblItemCount = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.Mole1 = new System.Windows.Forms.PictureBox();
+            this.Mole2 = new System.Windows.Forms.PictureBox();
+            this.Mole3 = new System.Windows.Forms.PictureBox();
+            this.Mole5 = new System.Windows.Forms.PictureBox();
+            this.Mole4 = new System.Windows.Forms.PictureBox();
+            this.Mole6 = new System.Windows.Forms.PictureBox();
+            this.Mole7 = new System.Windows.Forms.PictureBox();
+            this.Mole8 = new System.Windows.Forms.PictureBox();
+            this.Mole10 = new System.Windows.Forms.PictureBox();
+            this.Mole9 = new System.Windows.Forms.PictureBox();
+            this.Mole14 = new System.Windows.Forms.PictureBox();
+            this.Mole15 = new System.Windows.Forms.PictureBox();
+            this.Mole13 = new System.Windows.Forms.PictureBox();
+            this.Mole12 = new System.Windows.Forms.PictureBox();
+            this.Mole11 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole11)).BeginInit();
             this.SuspendLayout();
             // 
             // lblItemCount
@@ -75,170 +74,155 @@
             this.lblItemCount.TabIndex = 1;
             this.lblItemCount.Text = "__";
             // 
-            // pictureBox2
+            // Mole1
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(483, 212);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.Mole1.BackColor = System.Drawing.Color.Transparent;
+            this.Mole1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole1.Location = new System.Drawing.Point(313, 107);
+            this.Mole1.Name = "Mole1";
+            this.Mole1.Size = new System.Drawing.Size(140, 142);
+            this.Mole1.TabIndex = 2;
+            this.Mole1.TabStop = false;
             // 
-            // pictureBox1
+            // Mole2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(693, 212);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.Mole2.BackColor = System.Drawing.Color.Transparent;
+            this.Mole2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole2.Location = new System.Drawing.Point(523, 107);
+            this.Mole2.Name = "Mole2";
+            this.Mole2.Size = new System.Drawing.Size(140, 142);
+            this.Mole2.TabIndex = 3;
+            this.Mole2.TabStop = false;
             // 
-            // pictureBox3
+            // Mole3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(907, 212);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
+            this.Mole3.BackColor = System.Drawing.Color.Transparent;
+            this.Mole3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole3.Location = new System.Drawing.Point(737, 107);
+            this.Mole3.Name = "Mole3";
+            this.Mole3.Size = new System.Drawing.Size(140, 142);
+            this.Mole3.TabIndex = 4;
+            this.Mole3.TabStop = false;
             // 
-            // pictureBox4
+            // Mole5
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(1298, 212);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox4.TabIndex = 5;
-            this.pictureBox4.TabStop = false;
+            this.Mole5.BackColor = System.Drawing.Color.Transparent;
+            this.Mole5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole5.Location = new System.Drawing.Point(1128, 107);
+            this.Mole5.Name = "Mole5";
+            this.Mole5.Size = new System.Drawing.Size(140, 142);
+            this.Mole5.TabIndex = 5;
+            this.Mole5.TabStop = false;
             // 
-            // pictureBox5
+            // Mole4
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(1098, 212);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
+            this.Mole4.BackColor = System.Drawing.Color.Transparent;
+            this.Mole4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole4.Location = new System.Drawing.Point(928, 107);
+            this.Mole4.Name = "Mole4";
+            this.Mole4.Size = new System.Drawing.Size(140, 142);
+            this.Mole4.TabIndex = 6;
+            this.Mole4.TabStop = false;
             // 
-            // pictureBox6
+            // Mole6
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(483, 471);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
+            this.Mole6.BackColor = System.Drawing.Color.Transparent;
+            this.Mole6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole6.Location = new System.Drawing.Point(313, 366);
+            this.Mole6.Name = "Mole6";
+            this.Mole6.Size = new System.Drawing.Size(140, 142);
+            this.Mole6.TabIndex = 2;
+            this.Mole6.TabStop = false;
             // 
-            // pictureBox7
+            // Mole7
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(693, 471);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
+            this.Mole7.BackColor = System.Drawing.Color.Transparent;
+            this.Mole7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole7.Location = new System.Drawing.Point(523, 366);
+            this.Mole7.Name = "Mole7";
+            this.Mole7.Size = new System.Drawing.Size(140, 142);
+            this.Mole7.TabIndex = 3;
+            this.Mole7.TabStop = false;
             // 
-            // pictureBox8
+            // Mole8
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(907, 471);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox8.TabIndex = 4;
-            this.pictureBox8.TabStop = false;
+            this.Mole8.BackColor = System.Drawing.Color.Transparent;
+            this.Mole8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole8.Location = new System.Drawing.Point(737, 366);
+            this.Mole8.Name = "Mole8";
+            this.Mole8.Size = new System.Drawing.Size(140, 142);
+            this.Mole8.TabIndex = 4;
+            this.Mole8.TabStop = false;
             // 
-            // pictureBox9
+            // Mole10
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(1298, 471);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox9.TabIndex = 5;
-            this.pictureBox9.TabStop = false;
+            this.Mole10.BackColor = System.Drawing.Color.Transparent;
+            this.Mole10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole10.Location = new System.Drawing.Point(1128, 366);
+            this.Mole10.Name = "Mole10";
+            this.Mole10.Size = new System.Drawing.Size(140, 142);
+            this.Mole10.TabIndex = 5;
+            this.Mole10.TabStop = false;
             // 
-            // pictureBox10
+            // Mole9
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.BackgroundImage")));
-            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(1098, 471);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox10.TabIndex = 6;
-            this.pictureBox10.TabStop = false;
+            this.Mole9.BackColor = System.Drawing.Color.Transparent;
+            this.Mole9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole9.Location = new System.Drawing.Point(928, 366);
+            this.Mole9.Name = "Mole9";
+            this.Mole9.Size = new System.Drawing.Size(140, 142);
+            this.Mole9.TabIndex = 6;
+            this.Mole9.TabStop = false;
             // 
-            // pictureBox11
+            // Mole14
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox11.BackgroundImage")));
-            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox11.Location = new System.Drawing.Point(1098, 725);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox11.TabIndex = 11;
-            this.pictureBox11.TabStop = false;
+            this.Mole14.BackColor = System.Drawing.Color.Transparent;
+            this.Mole14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole14.Location = new System.Drawing.Point(928, 620);
+            this.Mole14.Name = "Mole14";
+            this.Mole14.Size = new System.Drawing.Size(140, 142);
+            this.Mole14.TabIndex = 11;
+            this.Mole14.TabStop = false;
             // 
-            // pictureBox12
+            // Mole15
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox12.BackgroundImage")));
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.Location = new System.Drawing.Point(1298, 725);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox12.TabIndex = 10;
-            this.pictureBox12.TabStop = false;
+            this.Mole15.BackColor = System.Drawing.Color.Transparent;
+            this.Mole15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole15.Location = new System.Drawing.Point(1128, 620);
+            this.Mole15.Name = "Mole15";
+            this.Mole15.Size = new System.Drawing.Size(140, 142);
+            this.Mole15.TabIndex = 10;
+            this.Mole15.TabStop = false;
             // 
-            // pictureBox13
+            // Mole13
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox13.BackgroundImage")));
-            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox13.Location = new System.Drawing.Point(907, 725);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox13.TabIndex = 9;
-            this.pictureBox13.TabStop = false;
+            this.Mole13.BackColor = System.Drawing.Color.Transparent;
+            this.Mole13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole13.Location = new System.Drawing.Point(737, 620);
+            this.Mole13.Name = "Mole13";
+            this.Mole13.Size = new System.Drawing.Size(140, 142);
+            this.Mole13.TabIndex = 9;
+            this.Mole13.TabStop = false;
             // 
-            // pictureBox14
+            // Mole12
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox14.BackgroundImage")));
-            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox14.Location = new System.Drawing.Point(693, 725);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox14.TabIndex = 8;
-            this.pictureBox14.TabStop = false;
+            this.Mole12.BackColor = System.Drawing.Color.Transparent;
+            this.Mole12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole12.Location = new System.Drawing.Point(523, 620);
+            this.Mole12.Name = "Mole12";
+            this.Mole12.Size = new System.Drawing.Size(140, 142);
+            this.Mole12.TabIndex = 8;
+            this.Mole12.TabStop = false;
             // 
-            // pictureBox15
+            // Mole11
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox15.BackgroundImage")));
-            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox15.Location = new System.Drawing.Point(483, 725);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(140, 139);
-            this.pictureBox15.TabIndex = 7;
-            this.pictureBox15.TabStop = false;
+            this.Mole11.BackColor = System.Drawing.Color.Transparent;
+            this.Mole11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole11.Location = new System.Drawing.Point(313, 620);
+            this.Mole11.Name = "Mole11";
+            this.Mole11.Size = new System.Drawing.Size(140, 142);
+            this.Mole11.TabIndex = 7;
+            this.Mole11.TabStop = false;
             // 
             // Form1
             // 
@@ -247,40 +231,40 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Wack_A_Mole.Properties.Resources.Background__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
+            this.ClientSize = new System.Drawing.Size(1604, 881);
+            this.Controls.Add(this.Mole14);
+            this.Controls.Add(this.Mole15);
+            this.Controls.Add(this.Mole13);
+            this.Controls.Add(this.Mole12);
+            this.Controls.Add(this.Mole11);
+            this.Controls.Add(this.Mole9);
+            this.Controls.Add(this.Mole4);
+            this.Controls.Add(this.Mole10);
+            this.Controls.Add(this.Mole5);
+            this.Controls.Add(this.Mole8);
+            this.Controls.Add(this.Mole7);
+            this.Controls.Add(this.Mole3);
+            this.Controls.Add(this.Mole6);
+            this.Controls.Add(this.Mole2);
+            this.Controls.Add(this.Mole1);
             this.Controls.Add(this.lblItemCount);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Mole11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,21 +272,21 @@
 
         #endregion
         private System.Windows.Forms.Label lblItemCount;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox Mole1;
+        private System.Windows.Forms.PictureBox Mole2;
+        private System.Windows.Forms.PictureBox Mole3;
+        private System.Windows.Forms.PictureBox Mole5;
+        private System.Windows.Forms.PictureBox Mole4;
+        private System.Windows.Forms.PictureBox Mole6;
+        private System.Windows.Forms.PictureBox Mole7;
+        private System.Windows.Forms.PictureBox Mole8;
+        private System.Windows.Forms.PictureBox Mole10;
+        private System.Windows.Forms.PictureBox Mole9;
+        private System.Windows.Forms.PictureBox Mole14;
+        private System.Windows.Forms.PictureBox Mole15;
+        private System.Windows.Forms.PictureBox Mole13;
+        private System.Windows.Forms.PictureBox Mole12;
+        private System.Windows.Forms.PictureBox Mole11;
     }
 }
 
