@@ -84,10 +84,37 @@
     <None Include="Resources\Background %281%29.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1.png" />
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit7.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Hole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

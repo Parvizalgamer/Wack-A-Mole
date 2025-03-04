@@ -73,6 +73,76 @@ namespace Wack_A_Mole.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hit1 {
+            get {
+                object obj = ResourceManager.GetObject("hit1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hit2 {
+            get {
+                object obj = ResourceManager.GetObject("hit2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hit3 {
+            get {
+                object obj = ResourceManager.GetObject("hit3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hit4 {
+            get {
+                object obj = ResourceManager.GetObject("hit4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hit5 {
+            get {
+                object obj = ResourceManager.GetObject("hit5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hit6 {
+            get {
+                object obj = ResourceManager.GetObject("hit6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hit7 {
+            get {
+                object obj = ResourceManager.GetObject("hit7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hole {
             get {
                 object obj = ResourceManager.GetObject("Hole", resourceCulture);
@@ -86,6 +156,26 @@ namespace Wack_A_Mole.Properties {
         internal static System.Drawing.Bitmap Mole1 {
             get {
                 object obj = ResourceManager.GetObject("Mole1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mole2 {
+            get {
+                object obj = ResourceManager.GetObject("Mole2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mole3 {
+            get {
+                object obj = ResourceManager.GetObject("Mole3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

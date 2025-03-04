@@ -260,6 +260,7 @@
             // MoleTimer
             // 
             this.MoleTimer.Enabled = true;
+            this.MoleTimer.Interval = 1000;
             this.MoleTimer.Tick += new System.EventHandler(this.MoleTimer_Tick);
             // 
             // Form1
