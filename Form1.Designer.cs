@@ -260,7 +260,6 @@
             // MoleTimer
             // 
             this.MoleTimer.Enabled = true;
-            this.MoleTimer.Interval = 1000;
             this.MoleTimer.Tick += new System.EventHandler(this.MoleTimer_Tick);
             // 
             // Form1
@@ -287,6 +286,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblScore);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
